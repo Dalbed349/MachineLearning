@@ -3,6 +3,7 @@
 Dallas Alberti  11/8/2020
 
 Machine Learning Discussion Assignment 3
+Linear SVM C value changes. 
 
   
 
