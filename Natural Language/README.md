@@ -21,3 +21,10 @@
    b.  # toxic_data['punc_count2'] = toxic_data['comment_text'].str.count("\!")
 ```
 3. Current goals are to figure out how to count both uppercase letters / all uppercase words in a given wikipedia comment. 
+
+
+## Canvas Discussion 2: Alpha Values
+
+
+## Canvas Discussion 3: LinearSVM-C-Values 
+
