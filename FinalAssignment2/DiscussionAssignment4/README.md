@@ -1,5 +1,3 @@
-
-
 Dallas Alberti  11/15/2020
 
 Discussion Assignment 4
@@ -100,7 +98,7 @@ Neural Network results:
   
 ![](https://lh3.googleusercontent.com/Hmhh7gYT40xmQVYCdKWG22CfWffABaOyR-zbzgC5OzbjWXp3C_0XxJPy63_H03P4i0Df7MSBlLE5mnUPdCbooKOFjgMtNEMkfKXPuMWe-uR372tqwsfnrzcstttdByxYdccrn9in)
 
-A sigma value of 1 appeared to have a similar train performance for the neural network as a sigma value of 3. The perception model appeared to have a much higher training performance here. Both the test sets had a greatly improved TP rate as compared to the sigma value of 3.
+A sigma value of 1 appeared to have a similar train performance for the perceptron as a sigma value of 3. The neural network model appeared to have a much higher training performance here. Both the test sets had a greatly improved TP rate as compared to the sigma value of 3.
 
   
   
@@ -137,4 +135,4 @@ Neural Network results:
 
 ![](https://lh4.googleusercontent.com/TxWT9sYHeAGPEb2yFDJc6J6jJH_9kgL9TjiRHA0ggl7nChSztpYxOE0zGXkH0cpmnj72toJZjBA8op1lsfFgtLMPTzJtpuR0O4fJFphI_HAQppxPmXkXIof9kk3NEkLKgvZmE_-V)![](https://lh5.googleusercontent.com/6C2jXV8mXA9NT2d8zBpZAmY_KpMyUaEwu7-VukJ3y1xWM9F0FlA2_13G2YEG21Jp5fw0mokW-VKMXXaLT-77IOGRG6W85oFJ66HpfPVsfEmAl34nFWbeOn2oPhTBn5hgI9kq0VX1)
 
-The sigma value of .1 increased the neural network training performance to about .93 while not changing the perception training performance (as compared to sigma=1). Interestingly enough the neural network test performance was decreased slightly. The perception model took a large hit in TP performance moving from about .6 to .4 (compared to sigma=1).
+The sigma value of .1 increased the perceptron training performance to about .93 while not changing the neural network performance (as compared to sigma=1). Interestingly enough the perceptron test performance was decreased slightly. The neural network model took a large hit in TP performance moving from about .6 to .38 (compared to sigma=1).
