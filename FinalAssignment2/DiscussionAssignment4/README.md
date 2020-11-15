@@ -1,9 +1,48 @@
 Dallas Alberti  11/15/2020
 
 Discussion Assignment 4
+Dallas Alberti 11/15/2020
+
+Documentation Working HOG
 
   
 
+UPDATE: Histogram of Oriented Gradients working. Testing pixels_per_cell=(15,15)
+
+  
+
+![](https://lh4.googleusercontent.com/qEUxwGn3zElLSfnetSd74GKf_1_a8_wHMvinZFJJwls2qRInDM6mcXKTrrDsk0s002pJIIN4UDlzguM9_gqgBzK8qVcPUY0xxYJgAXQlaUFhEyyHtiqGhYBB_mHg6gJKv-IEalcg)
+
+  
+
+Solution to previous errors ->process_raw_data function - > Since it is returning two things (the representation and a visualization of it), you need to reference the first item in the process_raw_data function.
+
+-> features_list.append(image_manipulation(row['img_name'], images_fp))
+
+Change to:
+
+-> features_list.append(image_manipulation(row['img_name'], images_fp)[0])
+
+  
+  
+  
+  
+  
+  
+
+Perceptron:![](https://lh5.googleusercontent.com/jy9zkwSSTE7jOV7Mud4DOZbbJ-1fDPHHGpgGvruEA8GlXkz-HNVpRSOQGFfdiyiM7Gg9HsLBs2Fis8aV-CcGR7bLQqrELeuu0MSGkL33jmnI65GFjm7CmFfhFKsaEFYY0-AoxJ_N)
+
+  
+
+Neural Network: ![](https://lh3.googleusercontent.com/xxXCZFOLJtEyzGSmS6jCMYg22Xp8c-dwDy2n94CSe-DyLdAaQ_RSxhRmNIRln9MRTKXXbQjg-RT6Hy7f2Y-ukM7p2i2nuNwhQtVGOxyiy-WiASuHZh9ghKB3eYsyrGudnXbw6C-c)
+
+ROC:
+
+  
+
+![](https://lh3.googleusercontent.com/BxVGVLWj56pzYyF5UnW-gCmqRYmLC_l_NA4OI6CJfVFwlRHCLFSjgPTRlgTuhSXYYwFrz4FCTxGPJKw1kevXZukMX90O37CNRSSUdqAVVVlEkW0GYpCACeVFnt1PaQNiXjM3d9qP)
+  
+----------------------------------
 I started off experimenting with the histogram of oriented gradients (hog) before running into errors and transitioning to the default canny edge detector.
 
   
